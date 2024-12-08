@@ -5315,9 +5315,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f305ad10b84ac7fd08c60e2f973e0636, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  spriteRenderers: []
-  gun: {fileID: 0}
-  spawnBullet: {fileID: 0}
+  spriteRenderers:
+  - {fileID: 8016089204166456663}
+  - {fileID: 4898247003950162605}
+  gun: {fileID: 5235695221829243536}
+  spawnBullet: {fileID: 2312404720757872178}
 --- !u!1 &8278410955641685188
 GameObject:
   m_ObjectHideFlags: 0
