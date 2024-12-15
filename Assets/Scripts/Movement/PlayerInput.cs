@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -34,5 +35,18 @@ public class PlayerInput : CharacterController
         {
             onLookEvent.Invoke(direction);
         }
+    }
+    public void OnAttackMelee(InputValue value)
+    {
+        bool isAttack = value.isPressed;
+        if (isAttack)
+        {
+            onAttackMeleeEvent.Invoke(isAttack);
+        }
+    }
+
+    public void OnAttackRange(InputValue value)
+    {
+        isAttacking = value.isPressed;
     }
 }
