@@ -28,7 +28,6 @@ public class CharacterMovement : MonoBehaviour
 
     private void OnMove(Vector2 movement)
     {
-        Debug.Log(movement);
         this.movement = movement;
     }
 
