@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 288099b5adb67fb4e929c2a613207f2f
+guid: 84b33706373520591bcbd6d65ab76e7f
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -93,19 +93,6 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: WebGL
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -113,10 +100,10 @@ TextureImporter:
       name: Hotbar_0
       rect:
         serializedVersion: 2
-        x: 352
-        y: 160
-        width: 32
-        height: 32
+        x: 64
+        y: 432
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,8 +111,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 43899fe4377e7704cad963cecdfb615f
-      internalID: 1203995207
+      spriteID: 626642e70016c981396ebe33942a7894
+      internalID: -1782911992
       vertices: []
       indices: 
       edges: []
@@ -134,10 +121,10 @@ TextureImporter:
       name: Hotbar_1
       rect:
         serializedVersion: 2
-        x: 352
-        y: 128
-        width: 32
-        height: 32
+        x: 160
+        y: 432
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,8 +132,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 395e23f55f76d4547aec46c7c0a26684
-      internalID: -940002539
+      spriteID: 908efc411ff10afe8a3a313892cc2f7f
+      internalID: 155692229
       vertices: []
       indices: 
       edges: []
@@ -155,10 +142,10 @@ TextureImporter:
       name: Hotbar_2
       rect:
         serializedVersion: 2
-        x: 288
-        y: 128
-        width: 32
-        height: 32
+        x: 256
+        y: 432
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,8 +153,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ca6ff3dc8806eb64abdd11c2d273649a
-      internalID: 1835374763
+      spriteID: e7df61c9a9626a375a7c4bd6efdd64c0
+      internalID: 596772907
       vertices: []
       indices: 
       edges: []
@@ -176,10 +163,10 @@ TextureImporter:
       name: Hotbar_3
       rect:
         serializedVersion: 2
-        x: 288
-        y: 160
-        width: 32
-        height: 32
+        x: 352
+        y: 432
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,8 +174,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c8d779897c1937942b84cc2a888bdb08
-      internalID: 96425793
+      spriteID: 50c20972b9c404569b4200eaa25b3949
+      internalID: -1298558587
       vertices: []
       indices: 
       edges: []
@@ -197,10 +184,10 @@ TextureImporter:
       name: Hotbar_4
       rect:
         serializedVersion: 2
-        x: 256
-        y: 160
-        width: 32
-        height: 32
+        x: 448
+        y: 432
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +195,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82bd36f9f06637444b9420c2c99d7a0b
-      internalID: 842216895
+      spriteID: 9b355c23ee5e6855b82280af502eb33f
+      internalID: -297766479
       vertices: []
       indices: 
       edges: []
@@ -218,10 +205,10 @@ TextureImporter:
       name: Hotbar_5
       rect:
         serializedVersion: 2
-        x: 320
-        y: 128
-        width: 32
-        height: 32
+        x: 64
+        y: 420
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -229,8 +216,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2417595451825ad45b5b9d2ee99625c0
-      internalID: -384715232
+      spriteID: 04f3b7be45e10b9839967123e1e801e1
+      internalID: -28799435
       vertices: []
       indices: 
       edges: []
@@ -239,10 +226,10 @@ TextureImporter:
       name: Hotbar_6
       rect:
         serializedVersion: 2
-        x: 384
-        y: 352
+        x: 160
+        y: 420
         width: 96
-        height: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -250,8 +237,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6c0149497d8f704e8e61329b711b043
-      internalID: -1548661155
+      spriteID: 3a333ac2ddac8e522846a3ca5ef60c63
+      internalID: -241330059
       vertices: []
       indices: 
       edges: []
@@ -260,10 +247,10 @@ TextureImporter:
       name: Hotbar_7
       rect:
         serializedVersion: 2
-        x: 480
-        y: 160
-        width: 32
-        height: 32
+        x: 256
+        y: 420
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -271,8 +258,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3960cd19a3bf03e49ae0d008a4ab787d
-      internalID: 2071403018
+      spriteID: 5bc7bc30330e6106782837f1b0979fa2
+      internalID: -257235214
       vertices: []
       indices: 
       edges: []
@@ -281,10 +268,10 @@ TextureImporter:
       name: Hotbar_8
       rect:
         serializedVersion: 2
-        x: 448
-        y: 128
-        width: 32
-        height: 32
+        x: 352
+        y: 420
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -292,8 +279,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8c1da933567d6914eab4dd46efc1f223
-      internalID: -1487009691
+      spriteID: 5368f827f27ef45abb82da6248c3d77c
+      internalID: -2093254883
       vertices: []
       indices: 
       edges: []
@@ -302,10 +289,10 @@ TextureImporter:
       name: Hotbar_9
       rect:
         serializedVersion: 2
-        x: 320
-        y: 160
-        width: 32
-        height: 32
+        x: 448
+        y: 420
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -313,8 +300,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 28a19346920c80445ae6d4123807fd16
-      internalID: 615132937
+      spriteID: 074bdc9c9f441631e9850cc5e16d7727
+      internalID: 1856032049
       vertices: []
       indices: 
       edges: []
@@ -323,10 +310,10 @@ TextureImporter:
       name: Hotbar_10
       rect:
         serializedVersion: 2
-        x: 256
-        y: 128
-        width: 32
-        height: 32
+        x: 64
+        y: 408
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -334,8 +321,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb631d67664c924448f792d3539e3d85
-      internalID: 950348571
+      spriteID: 4128db6d6b252efccb3ecb193f017bd5
+      internalID: -49943859
       vertices: []
       indices: 
       edges: []
@@ -344,10 +331,10 @@ TextureImporter:
       name: Hotbar_11
       rect:
         serializedVersion: 2
-        x: 384
-        y: 320
-        width: 32
-        height: 32
+        x: 160
+        y: 408
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,8 +342,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4e9b7a56f7a8a5443841d2fad1b96e55
-      internalID: 1547109089
+      spriteID: 374902763cd0a8abdaabf5ccd9b1a892
+      internalID: 685350408
       vertices: []
       indices: 
       edges: []
@@ -365,10 +352,10 @@ TextureImporter:
       name: Hotbar_12
       rect:
         serializedVersion: 2
-        x: 416
-        y: 320
-        width: 32
-        height: 32
+        x: 256
+        y: 408
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,8 +363,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e3dc37555b24aca4badfd9b7f93e35f6
-      internalID: 594489907
+      spriteID: 3d19a6a48496460abb329d19ea496f8e
+      internalID: 1066774790
       vertices: []
       indices: 
       edges: []
@@ -386,10 +373,10 @@ TextureImporter:
       name: Hotbar_13
       rect:
         serializedVersion: 2
-        x: 512
-        y: 416
-        width: 32
-        height: 32
+        x: 352
+        y: 408
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -397,8 +384,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6955f480fdf294944bd5f7f6ebbf617f
-      internalID: 732099867
+      spriteID: a646c06facd71a57ebe4f3d239cf0317
+      internalID: -219226579
       vertices: []
       indices: 
       edges: []
@@ -407,10 +394,10 @@ TextureImporter:
       name: Hotbar_14
       rect:
         serializedVersion: 2
-        x: 544
-        y: 416
-        width: 32
-        height: 32
+        x: 448
+        y: 408
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -418,8 +405,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 398ac99c93750a64d922708b931d7b01
-      internalID: 566726742
+      spriteID: be9ea84ed979bba9a86702d495fc20bb
+      internalID: -619167847
       vertices: []
       indices: 
       edges: []
@@ -428,10 +415,10 @@ TextureImporter:
       name: Hotbar_15
       rect:
         serializedVersion: 2
-        x: 480
-        y: 416
-        width: 32
-        height: 32
+        x: 64
+        y: 396
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -439,8 +426,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f006cc490f3566b46b0ba6a1836b30dc
-      internalID: -1218965995
+      spriteID: 36ca4780f85d53e45aa6be006251e3da
+      internalID: 826474191
       vertices: []
       indices: 
       edges: []
@@ -449,10 +436,10 @@ TextureImporter:
       name: Hotbar_16
       rect:
         serializedVersion: 2
-        x: 480
-        y: 128
-        width: 32
-        height: 32
+        x: 160
+        y: 396
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -460,8 +447,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a199ea4316ca8a8428d3bce32101d6ca
-      internalID: -1401256957
+      spriteID: 653a48004679df0ec917e1bbc34d4d6e
+      internalID: 1829161898
       vertices: []
       indices: 
       edges: []
@@ -470,10 +457,10 @@ TextureImporter:
       name: Hotbar_17
       rect:
         serializedVersion: 2
-        x: 384
-        y: 160
-        width: 32
-        height: 32
+        x: 256
+        y: 396
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,8 +468,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f9b3840f1cd26e14698f99c8e3653533
-      internalID: -2094780238
+      spriteID: 3a54f63cd1ca52fc4b0b9f783c1ecc7c
+      internalID: 1259648429
       vertices: []
       indices: 
       edges: []
@@ -491,10 +478,10 @@ TextureImporter:
       name: Hotbar_18
       rect:
         serializedVersion: 2
-        x: 576
-        y: 416
-        width: 32
-        height: 32
+        x: 352
+        y: 396
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -502,8 +489,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 24393430dea2eff44bbc02b5bf2e8e52
-      internalID: -888983800
+      spriteID: 4c6e73e7b58e09c9da392a6d302b0c67
+      internalID: 791004277
       vertices: []
       indices: 
       edges: []
@@ -512,10 +499,10 @@ TextureImporter:
       name: Hotbar_19
       rect:
         serializedVersion: 2
-        x: 480
-        y: 384
-        width: 32
-        height: 32
+        x: 448
+        y: 396
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -523,8 +510,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 938a892821a65144086b49afff4e6b4e
-      internalID: -206353936
+      spriteID: 9db7007b25f89ccad9c563e62bba51d1
+      internalID: -856559156
       vertices: []
       indices: 
       edges: []
@@ -533,10 +520,10 @@ TextureImporter:
       name: Hotbar_20
       rect:
         serializedVersion: 2
-        x: 512
+        x: 64
         y: 384
-        width: 32
-        height: 32
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -544,8 +531,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 603c94990f38cfe488a192a0a5c4d087
-      internalID: -1647653364
+      spriteID: a75cf79a81c7c2944911025997078d52
+      internalID: 1833856071
       vertices: []
       indices: 
       edges: []
@@ -554,10 +541,10 @@ TextureImporter:
       name: Hotbar_21
       rect:
         serializedVersion: 2
-        x: 544
+        x: 160
         y: 384
-        width: 32
-        height: 32
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -565,8 +552,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4f4ee2936be312841aaaae952d50138c
-      internalID: 1706303965
+      spriteID: da53bd2725b4d3850bb520dc1d1afbb2
+      internalID: -895002126
       vertices: []
       indices: 
       edges: []
@@ -575,10 +562,10 @@ TextureImporter:
       name: Hotbar_22
       rect:
         serializedVersion: 2
-        x: 576
-        y: 320
-        width: 32
-        height: 32
+        x: 256
+        y: 384
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -586,8 +573,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c6e3afb7537a7094ab84cbac398f3904
-      internalID: -352992176
+      spriteID: 65f826083d327b23ea127bde0a4a0db3
+      internalID: 807237243
       vertices: []
       indices: 
       edges: []
@@ -596,10 +583,10 @@ TextureImporter:
       name: Hotbar_23
       rect:
         serializedVersion: 2
-        x: 480
-        y: 352
-        width: 32
-        height: 32
+        x: 352
+        y: 384
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -607,8 +594,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f8841ba46e6773949a6fedd535912753
-      internalID: 1464139131
+      spriteID: 3b48c5fa0338e74208e6290761139dec
+      internalID: 1441616297
       vertices: []
       indices: 
       edges: []
@@ -617,10 +604,10 @@ TextureImporter:
       name: Hotbar_24
       rect:
         serializedVersion: 2
-        x: 384
-        y: 256
-        width: 64
-        height: 64
+        x: 448
+        y: 384
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,8 +615,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 981f600c8e94127498311c794a14568e
-      internalID: 228216212
+      spriteID: 26d4be58ce93c5559afbd56b5797b01b
+      internalID: 450005694
       vertices: []
       indices: 
       edges: []
@@ -638,10 +625,10 @@ TextureImporter:
       name: Hotbar_25
       rect:
         serializedVersion: 2
-        x: 448
-        y: 256
-        width: 64
-        height: 64
+        x: 64
+        y: 372
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -649,8 +636,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fa5505d94dcec0841abd65f8f5d3f79a
-      internalID: 710810941
+      spriteID: b62b45e6415737ad48d3c81811c36ab6
+      internalID: -1801912338
       vertices: []
       indices: 
       edges: []
@@ -659,10 +646,10 @@ TextureImporter:
       name: Hotbar_26
       rect:
         serializedVersion: 2
-        x: 512
-        y: 257
-        width: 64
-        height: 63
+        x: 160
+        y: 372
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -670,8 +657,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 025d39d7916671c479ba15bb36e286c4
-      internalID: -1670620247
+      spriteID: 4ec1aa0a0360031ef8760b10c159cab5
+      internalID: -1035378557
       vertices: []
       indices: 
       edges: []
@@ -680,10 +667,10 @@ TextureImporter:
       name: Hotbar_27
       rect:
         serializedVersion: 2
-        x: 480
-        y: 320
-        width: 32
-        height: 32
+        x: 256
+        y: 372
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -691,8 +678,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d502fb833daa2564faa0471134bcb97b
-      internalID: -598933974
+      spriteID: 1bfe11ba56d717acbb7ff784ddf84477
+      internalID: 172602106
       vertices: []
       indices: 
       edges: []
@@ -701,10 +688,10 @@ TextureImporter:
       name: Hotbar_28
       rect:
         serializedVersion: 2
-        x: 512
-        y: 320
-        width: 32
-        height: 32
+        x: 352
+        y: 372
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -712,8 +699,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 925fc0bf85a8bb64cb100d9b4a54e1f0
-      internalID: -1376248715
+      spriteID: 3ea8c0352bf47d21cb0a2a5a279ebc6f
+      internalID: -118028197
       vertices: []
       indices: 
       edges: []
@@ -722,10 +709,10 @@ TextureImporter:
       name: Hotbar_29
       rect:
         serializedVersion: 2
-        x: 512
-        y: 352
-        width: 32
-        height: 32
+        x: 448
+        y: 372
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -733,8 +720,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d56a449b365b51a4f9b5ac633c72aa3e
-      internalID: 912525034
+      spriteID: ade37a1c38355a96b8fb4b9d6bd5d907
+      internalID: 199993576
       vertices: []
       indices: 
       edges: []
@@ -743,10 +730,10 @@ TextureImporter:
       name: Hotbar_30
       rect:
         serializedVersion: 2
-        x: 544
-        y: 352
-        width: 32
-        height: 32
+        x: 64
+        y: 360
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -754,8 +741,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 906da6ee15863e34e82b0e1c26ec3136
-      internalID: -1497975952
+      spriteID: 19ce4388f5f8e4bca993a77bee2b09d2
+      internalID: -359049234
       vertices: []
       indices: 
       edges: []
@@ -764,10 +751,10 @@ TextureImporter:
       name: Hotbar_31
       rect:
         serializedVersion: 2
-        x: 544
-        y: 320
-        width: 32
-        height: 32
+        x: 160
+        y: 360
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -775,8 +762,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da5dd15799c96644aaf1858f603c11b0
-      internalID: 1754557172
+      spriteID: 9a38fe20cd0c46db38e82bbd9905d137
+      internalID: 813635879
       vertices: []
       indices: 
       edges: []
@@ -785,10 +772,10 @@ TextureImporter:
       name: Hotbar_32
       rect:
         serializedVersion: 2
-        x: 576
-        y: 384
-        width: 32
-        height: 32
+        x: 256
+        y: 360
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -796,8 +783,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8121bdcf026435849a3e528af469b327
-      internalID: 430986130
+      spriteID: 897619d06d428669e8463e9d37e73e04
+      internalID: -1586840757
       vertices: []
       indices: 
       edges: []
@@ -806,10 +793,10 @@ TextureImporter:
       name: Hotbar_33
       rect:
         serializedVersion: 2
-        x: 384
-        y: 192
-        width: 64
-        height: 64
+        x: 352
+        y: 360
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -817,8 +804,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 821458d8d7e2e7a46bcdc93599bf0e12
-      internalID: 804293890
+      spriteID: 05c78c6cbceb1511bb96253d44589188
+      internalID: 4426384
       vertices: []
       indices: 
       edges: []
@@ -828,9 +815,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 448
-        y: 192
-        width: 64
-        height: 64
+        y: 360
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -838,8 +825,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 603948a704b1ace40a03353fef68b0d5
-      internalID: 423334112
+      spriteID: be246bd00720d819b8eb2d1d09235a59
+      internalID: -697004248
       vertices: []
       indices: 
       edges: []
@@ -848,10 +835,10 @@ TextureImporter:
       name: Hotbar_35
       rect:
         serializedVersion: 2
-        x: 512
-        y: 192
-        width: 64
-        height: 64
+        x: 64
+        y: 348
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -859,8 +846,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c5a844e8a8de8f945a068fd952734358
-      internalID: 811793514
+      spriteID: 5db9bba20728cd3d6ae58b7937fc53b2
+      internalID: -418927364
       vertices: []
       indices: 
       edges: []
@@ -869,10 +856,10 @@ TextureImporter:
       name: Hotbar_36
       rect:
         serializedVersion: 2
-        x: 576
-        y: 352
-        width: 32
-        height: 32
+        x: 160
+        y: 348
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -880,8 +867,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cde48e80f92dd1f40a8a021f7efef304
-      internalID: 903573676
+      spriteID: 3fc96add53a4e5ae6b4764fba7a7d8a3
+      internalID: -909212122
       vertices: []
       indices: 
       edges: []
@@ -890,10 +877,10 @@ TextureImporter:
       name: Hotbar_37
       rect:
         serializedVersion: 2
-        x: 448
-        y: 320
-        width: 32
-        height: 32
+        x: 256
+        y: 348
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -901,8 +888,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ce4c20128637f3548a55d99b3aa0c33a
-      internalID: -2108416865
+      spriteID: cd83523df6fc23bcbb1fd57404d02561
+      internalID: 2002473964
       vertices: []
       indices: 
       edges: []
@@ -911,19 +898,19 @@ TextureImporter:
       name: Hotbar_38
       rect:
         serializedVersion: 2
-        x: 0
-        y: 352
+        x: 352
+        y: 348
         width: 96
-        height: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 299511b5c664cb247929a444f33ef7e9
-      internalID: -367212614
+      spriteID: e843b4cefd7df51b6ae31291fc80f9f9
+      internalID: 2675224
       vertices: []
       indices: 
       edges: []
@@ -932,19 +919,19 @@ TextureImporter:
       name: Hotbar_39
       rect:
         serializedVersion: 2
-        x: 96
-        y: 352
+        x: 448
+        y: 348
         width: 96
-        height: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 952c4304101c0b14f8fca46e63c1cac3
-      internalID: -1266600503
+      spriteID: 6f0b5ca2e5b7b656b9dafa5715a01121
+      internalID: -1677795538
       vertices: []
       indices: 
       edges: []
@@ -953,10 +940,10 @@ TextureImporter:
       name: Hotbar_40
       rect:
         serializedVersion: 2
-        x: 416
-        y: 160
-        width: 32
-        height: 32
+        x: 64
+        y: 336
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -964,8 +951,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 66937a9bef119144da7ac8a564c41b8b
-      internalID: 1575526879
+      spriteID: 5ea44551a927bdb2f87c6132e720fc9b
+      internalID: 2093973198
       vertices: []
       indices: 
       edges: []
@@ -974,10 +961,10 @@ TextureImporter:
       name: Hotbar_41
       rect:
         serializedVersion: 2
-        x: 416
-        y: 128
-        width: 32
-        height: 32
+        x: 160
+        y: 336
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -985,8 +972,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 48de68aca82f37948aadb262c4efeaca
-      internalID: 105715578
+      spriteID: 0c47b7e073894ceff90197b6c73346aa
+      internalID: 1662015224
       vertices: []
       indices: 
       edges: []
@@ -995,10 +982,10 @@ TextureImporter:
       name: Hotbar_42
       rect:
         serializedVersion: 2
-        x: 384
-        y: 128
-        width: 32
-        height: 32
+        x: 256
+        y: 336
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1006,8 +993,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8a2b8559ce8fe8e489253c8a7bd170fb
-      internalID: -534497877
+      spriteID: 48f8c6f7e75a3b5afb4ade60dc8899d8
+      internalID: -1104710764
       vertices: []
       indices: 
       edges: []
@@ -1016,10 +1003,10 @@ TextureImporter:
       name: Hotbar_43
       rect:
         serializedVersion: 2
-        x: 448
-        y: 160
-        width: 32
-        height: 32
+        x: 352
+        y: 336
+        width: 96
+        height: 12
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -1027,8 +1014,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 823c43f16f96d504b8f477994aa01eed
-      internalID: 91373997
+      spriteID: 55622969ca9f23ea9887195c61f5f048
+      internalID: 1785251334
       vertices: []
       indices: 
       edges: []
@@ -1037,19 +1024,19 @@ TextureImporter:
       name: Hotbar_44
       rect:
         serializedVersion: 2
-        x: 192
-        y: 352
+        x: 448
+        y: 336
         width: 96
-        height: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b1ee0b7f4ab40c4a85370af74ad15b3
-      internalID: -2064162481
+      spriteID: c4168a38c071e6ab8b56574ff836c7a0
+      internalID: 1736572807
       vertices: []
       indices: 
       edges: []
@@ -1058,19 +1045,19 @@ TextureImporter:
       name: Hotbar_45
       rect:
         serializedVersion: 2
-        x: 288
-        y: 352
+        x: 64
+        y: 324
         width: 96
-        height: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3dbfad5e5b2403c4eaae0368808451fa
-      internalID: 1568306092
+      spriteID: d81ce1ac5b9720008a6870f5c96fe86b
+      internalID: -1693889432
       vertices: []
       indices: 
       edges: []
@@ -1079,19 +1066,19 @@ TextureImporter:
       name: Hotbar_46
       rect:
         serializedVersion: 2
-        x: 0
-        y: 320
-        width: 32
-        height: 32
+        x: 160
+        y: 324
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2313551a754889c44830a49fcb4c4ef4
-      internalID: -1762351835
+      spriteID: 96b50aa89545c799891bf2af79284db3
+      internalID: 988309795
       vertices: []
       indices: 
       edges: []
@@ -1100,19 +1087,19 @@ TextureImporter:
       name: Hotbar_47
       rect:
         serializedVersion: 2
-        x: 32
-        y: 320
-        width: 32
-        height: 32
+        x: 256
+        y: 324
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: df04a66654b2604488a1531b9e0ea0a1
-      internalID: 584747389
+      spriteID: 79de723b639b288cf8470af46578ff0d
+      internalID: -1342140504
       vertices: []
       indices: 
       edges: []
@@ -1121,19 +1108,19 @@ TextureImporter:
       name: Hotbar_48
       rect:
         serializedVersion: 2
-        x: 64
-        y: 320
-        width: 32
-        height: 32
+        x: 352
+        y: 324
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e38900933478b154bb2740557e619a81
-      internalID: 1651996597
+      spriteID: b83883c533acea18586d2edc8dd3b01e
+      internalID: -1814472915
       vertices: []
       indices: 
       edges: []
@@ -1142,19 +1129,19 @@ TextureImporter:
       name: Hotbar_49
       rect:
         serializedVersion: 2
-        x: 96
-        y: 320
-        width: 32
-        height: 32
+        x: 448
+        y: 324
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d8e456de81216e64b9fea307e037289d
-      internalID: 15693984
+      spriteID: 9aed7b97efc7fbe8291c6355153db6de
+      internalID: -630107640
       vertices: []
       indices: 
       edges: []
@@ -1163,19 +1150,19 @@ TextureImporter:
       name: Hotbar_50
       rect:
         serializedVersion: 2
-        x: 128
-        y: 320
-        width: 32
-        height: 32
+        x: 64
+        y: 312
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f2661480dd089dd43ba958b8337d997c
-      internalID: 1310559266
+      spriteID: 3ca1eea2cebc3cf5799a81cbe141a5f0
+      internalID: -759628762
       vertices: []
       indices: 
       edges: []
@@ -1185,18 +1172,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 160
-        y: 320
-        width: 32
-        height: 32
+        y: 312
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 86790bb25156b514b97064cf92e7fe82
-      internalID: -1910355181
+      spriteID: 43f283554d215e41e8558cd6d864de2b
+      internalID: -1569954389
       vertices: []
       indices: 
       edges: []
@@ -1205,19 +1192,19 @@ TextureImporter:
       name: Hotbar_52
       rect:
         serializedVersion: 2
-        x: 192
-        y: 320
-        width: 32
-        height: 32
+        x: 352
+        y: 312
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0d969f05aa0218459f4332bc57d5631
-      internalID: 1938467351
+      spriteID: b6e98362acb577a1fab1e353b6aef3de
+      internalID: -241835235
       vertices: []
       indices: 
       edges: []
@@ -1226,19 +1213,19 @@ TextureImporter:
       name: Hotbar_53
       rect:
         serializedVersion: 2
-        x: 224
-        y: 320
-        width: 32
-        height: 32
+        x: 448
+        y: 312
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cddb4c2a24d31bd47a0e33ba0b3cab94
-      internalID: 1045797709
+      spriteID: 16af61f02495f1fadaacf3a633911487
+      internalID: 2064220869
       vertices: []
       indices: 
       edges: []
@@ -1247,19 +1234,19 @@ TextureImporter:
       name: Hotbar_54
       rect:
         serializedVersion: 2
-        x: 256
-        y: 320
-        width: 32
-        height: 32
+        x: 64
+        y: 300
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cbd9790658bd2fd4fbd5b3216f262e73
-      internalID: 401834292
+      spriteID: 8a12c30c4a5acb59c9f724106867ab17
+      internalID: 2118759846
       vertices: []
       indices: 
       edges: []
@@ -1268,19 +1255,19 @@ TextureImporter:
       name: Hotbar_55
       rect:
         serializedVersion: 2
-        x: 288
-        y: 320
-        width: 32
-        height: 32
+        x: 160
+        y: 300
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d5751b19a5c7f540be43905f3124e7d
-      internalID: 1912182164
+      spriteID: 8782aa05c463b40268713e23a595f409
+      internalID: -1082675072
       vertices: []
       indices: 
       edges: []
@@ -1289,19 +1276,19 @@ TextureImporter:
       name: Hotbar_56
       rect:
         serializedVersion: 2
-        x: 320
-        y: 320
-        width: 32
-        height: 32
+        x: 352
+        y: 300
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7425781ae0bf1ea4e9ac52eae7cced70
-      internalID: 849144893
+      spriteID: 3ca47a19de7f728e8809052c1948f382
+      internalID: -801405037
       vertices: []
       indices: 
       edges: []
@@ -1310,19 +1297,19 @@ TextureImporter:
       name: Hotbar_57
       rect:
         serializedVersion: 2
-        x: 352
-        y: 320
-        width: 32
-        height: 32
+        x: 448
+        y: 300
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3bc77d1986dbbe64d8a7cc057cca6274
-      internalID: -1291919839
+      spriteID: 702256389153a24548f3cb21e8a2376c
+      internalID: -1603386040
       vertices: []
       indices: 
       edges: []
@@ -1331,19 +1318,19 @@ TextureImporter:
       name: Hotbar_58
       rect:
         serializedVersion: 2
-        x: 128
-        y: 96
-        width: 128
-        height: 128
+        x: 64
+        y: 288
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1f37c7aed98a18447a3e9f3a0ed9d8e6
-      internalID: -267066053
+      spriteID: d5d5cac6c2f2b29629b7e9a95d516e5c
+      internalID: 1472438386
       vertices: []
       indices: 
       edges: []
@@ -1352,19 +1339,19 @@ TextureImporter:
       name: Hotbar_59
       rect:
         serializedVersion: 2
-        x: 0
-        y: 96
-        width: 128
-        height: 128
+        x: 160
+        y: 288
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3e85cbb1ecd7831479f186d8f26b1e8d
-      internalID: 480557461
+      spriteID: 18efeabc79afccbf79a41e2936dac576
+      internalID: 1482436194
       vertices: []
       indices: 
       edges: []
@@ -1373,19 +1360,19 @@ TextureImporter:
       name: Hotbar_60
       rect:
         serializedVersion: 2
-        x: 0
-        y: 48
-        width: 160
-        height: 48
+        x: 256
+        y: 288
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3aa40c022415b14c93222a9baa167de
-      internalID: -499443894
+      spriteID: ffd0abbdd5c4e374f95051fdb2c90ad5
+      internalID: 933483934
       vertices: []
       indices: 
       edges: []
@@ -1395,18 +1382,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 352
-        y: 84
+        y: 288
         width: 96
         height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0959f9d9547816344a4fc4ee23be38c4
-      internalID: -72266237
+      spriteID: 597be7653a54793e3b99dd4974e05cdc
+      internalID: -1310072158
       vertices: []
       indices: 
       edges: []
@@ -1415,19 +1402,19 @@ TextureImporter:
       name: Hotbar_62
       rect:
         serializedVersion: 2
-        x: 160
-        y: 64
+        x: 448
+        y: 288
         width: 96
-        height: 32
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5fecb5b1f4381ce4495d6bf4932ca93b
-      internalID: -346264397
+      spriteID: 57ac4ae6f50274735833b2f411bb97aa
+      internalID: -731582682
       vertices: []
       indices: 
       edges: []
@@ -1436,19 +1423,19 @@ TextureImporter:
       name: Hotbar_63
       rect:
         serializedVersion: 2
-        x: 256
-        y: 76
+        x: 64
+        y: 276
         width: 96
-        height: 20
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0628cede91c2422438c911bcff8bfe6b
-      internalID: 382450065
+      spriteID: 94b36c2e69abd8ce99b0c2afef68aed9
+      internalID: 153273400
       vertices: []
       indices: 
       edges: []
@@ -1457,19 +1444,19 @@ TextureImporter:
       name: Hotbar_64
       rect:
         serializedVersion: 2
-        x: 8
-        y: 232
-        width: 80
-        height: 80
+        x: 160
+        y: 276
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 90a64cfdca7728a41b0d63e80657978e
-      internalID: 1939043396
+      spriteID: 97af52e4120adffc48a07155eaba30c9
+      internalID: 1872156382
       vertices: []
       indices: 
       edges: []
@@ -1478,19 +1465,19 @@ TextureImporter:
       name: Hotbar_65
       rect:
         serializedVersion: 2
-        x: 104
-        y: 232
-        width: 80
-        height: 80
+        x: 256
+        y: 276
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 38ed046626bacde4c8baa0b49f226f58
-      internalID: -7275952
+      spriteID: 56c749dfe573a4fd99544e23036cb33b
+      internalID: -836268078
       vertices: []
       indices: 
       edges: []
@@ -1499,19 +1486,19 @@ TextureImporter:
       name: Hotbar_66
       rect:
         serializedVersion: 2
-        x: 212
-        y: 244
-        width: 56
-        height: 56
+        x: 352
+        y: 276
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d532c23c682011f4e94df5519a727901
-      internalID: 1243706080
+      spriteID: 663f21ded59dc6364a490b374a6d7de1
+      internalID: 1941765235
       vertices: []
       indices: 
       edges: []
@@ -1520,19 +1507,19 @@ TextureImporter:
       name: Hotbar_67
       rect:
         serializedVersion: 2
-        x: 308
-        y: 244
-        width: 56
-        height: 56
+        x: 448
+        y: 276
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 902dd4cade68ee847bccb14393b1f185
-      internalID: 310634746
+      spriteID: bdf9424633407816399a5669d8f27a63
+      internalID: 1185627758
       vertices: []
       indices: 
       edges: []
@@ -1541,19 +1528,19 @@ TextureImporter:
       name: Hotbar_68
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 32
+        x: 64
+        y: 264
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ed6b24f2a0028a943bb1574673fdf516
-      internalID: -1255347436
+      spriteID: 5c4bd367da082cf27b994549737108b9
+      internalID: 1250190520
       vertices: []
       indices: 
       edges: []
@@ -1562,19 +1549,19 @@ TextureImporter:
       name: Hotbar_69
       rect:
         serializedVersion: 2
-        x: 64
-        y: 0
-        width: 64
-        height: 32
+        x: 160
+        y: 264
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a0a572b2848ad6b4791eecf21e3f26db
-      internalID: -1278165328
+      spriteID: e1300800b4c2c7b32b593db009201709
+      internalID: 1473682063
       vertices: []
       indices: 
       edges: []
@@ -1583,19 +1570,19 @@ TextureImporter:
       name: Hotbar_70
       rect:
         serializedVersion: 2
-        x: 128
-        y: 0
-        width: 64
-        height: 32
+        x: 256
+        y: 264
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8392c060d22ca5f42aa78470f71733bf
-      internalID: 1052873672
+      spriteID: 37b79e091530d2a43a772cdd9cb8fb5c
+      internalID: 1473595456
       vertices: []
       indices: 
       edges: []
@@ -1604,19 +1591,1657 @@ TextureImporter:
       name: Hotbar_71
       rect:
         serializedVersion: 2
-        x: 192
-        y: 0
-        width: 64
-        height: 32
+        x: 352
+        y: 264
+        width: 96
+        height: 12
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 878a22137b9c2cb4e9aed142f0da5a15
-      internalID: -1546337962
+      spriteID: ee2465e1efdf34c3abce4f2fe20dc2bc
+      internalID: 1754248676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_72
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 264
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79ab1c76c971e444394bc811cebbc8cb
+      internalID: 168916372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 252
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ebb3f6dd54a532e4aabf669e9025ef4
+      internalID: 2063071023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_74
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 252
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17ef28400f5aadb45ba8d80aa2faa06c
+      internalID: 532915846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_75
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 252
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce0b865d49a730b43af8117849311f41
+      internalID: 913142011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_76
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 252
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63e2e8489e33904dc92de6fd6971f934
+      internalID: 1936764189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_77
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 252
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4e7596bd058e9b209e4bc2887ad3593
+      internalID: -817700916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_78
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 240
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90ca9242c63f04bfa9993232cd704048
+      internalID: -668475377
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_79
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1bab42deaefe301199941de28b19f4a8
+      internalID: -1767967310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_80
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 240
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27346724968840c41bb9b38efd51f0e1
+      internalID: 1622748961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_81
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 240
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb8a29ee4c23db681b3db62be498ca4d
+      internalID: 1785523004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_82
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 240
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 434100fa2083440c0a98a5c2c539c0c9
+      internalID: -1862782934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_83
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 228
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d559203371f3762d2bdbe8a2ccd50e2d
+      internalID: -1587622824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_84
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 228
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b29f65fd849b1e1199d7214402e9f19
+      internalID: -1954101332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_85
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 228
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9981a8819f857fad7abf165ad44c6dbf
+      internalID: -2101749278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_86
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 228
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e7540d3bd63f083d9b292997a25cb243
+      internalID: -1658497772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_87
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 216
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46d81e50e2d0e21d8a846cc3f88dea65
+      internalID: -1021951715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_88
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 216
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 395fd2f5524cbcefc905640fb748c00d
+      internalID: -226111291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_89
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 216
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4827db0ea5867f048a411f281d77a663
+      internalID: -405767561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_90
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 216
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aca084d31800606cdb8185cc81a29e9a
+      internalID: -673601270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_91
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 204
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb7a84ddab6e722fa20fee208456bec
+      internalID: 1279822823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_92
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 204
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 039c66942b0e49895b3783ec66c2652b
+      internalID: 1828889669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_93
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 204
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55c560dc734a8a2fc82c60ff654f03cf
+      internalID: 1409271276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_94
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 204
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17bfb230f3e6514b39acccd787315260
+      internalID: -1493165555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_95
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb0998a564962f549b9a37e5c1fc3e07
+      internalID: -345299815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_96
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 192
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: edda9f66e104790b49f0c637a45b99d1
+      internalID: -982439242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_97
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 192
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7c75a6b00d483cbcb1ef3fa4722cdf7
+      internalID: -1950756406
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_98
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 192
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 957c702e456c92c9ca2ef4cc396be125
+      internalID: -1010905234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_99
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 180
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e8ffe8b62e63c53833ddfe5caa0d84
+      internalID: 2036737599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_100
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 180
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e6992a337e07e1d7ae70a7d4506bea1
+      internalID: 460569111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_101
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 180
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 043530c652c5e758bad5df1508e75501
+      internalID: 203678722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_102
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 180
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 996bab66f1152511b924dfaaab887e11
+      internalID: -1116534705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_103
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 180
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16afa52ac9d93012dbeeea16ae8112c4
+      internalID: -886501142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_104
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 168
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfa6dd9372fff040d9626c2176a84665
+      internalID: 61785432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_105
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 168
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d88c3483b9a1bff69a806cdf44152ea
+      internalID: -1111514186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_106
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 168
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7735f3ec23781bcb88a9954602d7852e
+      internalID: 766019625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_107
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 168
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fe28c6db0ba076e790e55e400525cf6
+      internalID: 1923849515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_108
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 168
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9910de8fc75c6ab978fd61a70a81dbc3
+      internalID: 839105242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_109
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 156
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7673ccca7aa8ce10ab588cdcbbcf4691
+      internalID: 995065189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_110
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 156
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff78ed4d1769201beb03e683c2291d60
+      internalID: 192460664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_111
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 156
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c00162bd7a403858c96aacf473c604
+      internalID: 1427417307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_112
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 156
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 880f9b6ebf9a5204e855b9ebd5bdc6f9
+      internalID: 1066376312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_113
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 156
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8854876bdc84f7bd9814c2fb283d3664
+      internalID: 1539456842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_114
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 144
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ca834236659b531d8ab2aec89f95069
+      internalID: -886577256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_115
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 144
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 90a0e38bdc8410772b6e8aca0a55be61
+      internalID: 1396644546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_116
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 144
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63b7dce520717f328baf388cd10f9848
+      internalID: -642832711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_117
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 144
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f38a1b1416c7a2c8a0ffdf6740d363
+      internalID: 1198208694
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_118
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 144
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 776ee96cc81e12f0e832d8a0d588d44d
+      internalID: -1027696244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_119
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 132
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df161d5ea41dcf5e8ad0c0684927bbe3
+      internalID: 587487047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_120
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 132
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7322b005dffde7357bffff5be4415305
+      internalID: -638340805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_121
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 132
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ee96295b03220cfbb97a46b89c952e4
+      internalID: -1886878755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_122
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 132
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f02f9932c079e6ecb9eaa0b2eb639a94
+      internalID: -957893242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_123
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 132
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e0cbc45ac59802f15968421698058316
+      internalID: -1123988478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_124
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 120
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b56a2d64d4d375c0e8d915d7072f1a4b
+      internalID: -1823589340
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_125
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 120
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ca72976b2e9a92db94d6d323609f589
+      internalID: -2051562030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_126
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 120
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd5bfec6ba5128a6ca2616ffbe929db9
+      internalID: -551278973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_127
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 120
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 626198a81956cd0f4af0e540578ea965
+      internalID: -197830498
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_128
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 120
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6acf0649653f3878da9e25372be7a02f
+      internalID: -446711613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_129
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 108
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9992c116faf7d99f0bcf46d100eea3cb
+      internalID: -437855190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_130
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 108
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ff84aec3ac8289e2592d1241ff4700f7
+      internalID: -2126388145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_131
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05663c11ad2c2fefba21d54e31526889
+      internalID: 647185734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_132
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 96
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b12d729235c1fafd8a5736f5a7503f5
+      internalID: -1436601593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_133
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 84
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f75ab342f9c279052b5fa3c1f240a61c
+      internalID: -1995468711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_134
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 84
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02153883b717991df9f93ca145ba91b8
+      internalID: -1817547180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_135
+      rect:
+        serializedVersion: 2
+        x: 256
+        y: 76
+        width: 96
+        height: 20
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 641e139a2bf4933bda70605b2195303f
+      internalID: 1143413951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_136
+      rect:
+        serializedVersion: 2
+        x: 352
+        y: 84
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5edae15db2c232cadaf6f9925c86db0c
+      internalID: -1806843866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_137
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 72
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b48ce0e0feab1559b54f27891eeffca
+      internalID: -178808042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_138
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 72
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02622b828e16650a69cffad5c9e537e0
+      internalID: -64771142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_140
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 60
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0096e1ae300e6025e9a6780ade3f75f5
+      internalID: 539056264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_141
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 60
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e67c81646513b732db87738bdcc3f185
+      internalID: 190123540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_142
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 48
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 713acb8d7d8c7b22caea6412d170e108
+      internalID: -46262147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_143
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 36
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 218a78db50e3ae12a97cdc531180b954
+      internalID: 1914150004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_144
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 36
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88ffcd5c02be6b5bb9d1a1ee98b5c537
+      internalID: 1286744350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_145
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 24
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dace515534c3b35d9ff97d6861686cf
+      internalID: 149029149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_146
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 24
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25417cb5371e8969aa769b43433256b8
+      internalID: -1934281385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_147
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 12
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e83d368e88421a9b1a288d64d057604e
+      internalID: 1897567446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_148
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 12
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a53f021d06da32a1a383702fb43a07f
+      internalID: -552987401
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_149
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 0
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bcdb3cc90ea9d38ed826fe4532b06e2f
+      internalID: -1560725835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Hotbar_150
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 0
+        width: 96
+        height: 12
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 15dda437243a4a771be52785f49ff0a9
+      internalID: 245875381
       vertices: []
       indices: 
       edges: []
@@ -1632,78 +3257,157 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Hotbar_0: 1203995207
-      Hotbar_1: -940002539
-      Hotbar_10: 950348571
-      Hotbar_11: 1547109089
-      Hotbar_12: 594489907
-      Hotbar_13: 732099867
-      Hotbar_14: 566726742
-      Hotbar_15: -1218965995
-      Hotbar_16: -1401256957
-      Hotbar_17: -2094780238
-      Hotbar_18: -888983800
-      Hotbar_19: -206353936
-      Hotbar_2: 1835374763
-      Hotbar_20: -1647653364
-      Hotbar_21: 1706303965
-      Hotbar_22: -352992176
-      Hotbar_23: 1464139131
-      Hotbar_24: 228216212
-      Hotbar_25: 710810941
-      Hotbar_26: -1670620247
-      Hotbar_27: -598933974
-      Hotbar_28: -1376248715
-      Hotbar_29: 912525034
-      Hotbar_3: 96425793
-      Hotbar_30: -1497975952
-      Hotbar_31: 1754557172
-      Hotbar_32: 430986130
-      Hotbar_33: 804293890
-      Hotbar_34: 423334112
-      Hotbar_35: 811793514
-      Hotbar_36: 903573676
-      Hotbar_37: -2108416865
-      Hotbar_38: -367212614
-      Hotbar_39: -1266600503
-      Hotbar_4: 842216895
-      Hotbar_40: 1575526879
-      Hotbar_41: 105715578
-      Hotbar_42: -534497877
-      Hotbar_43: 91373997
-      Hotbar_44: -2064162481
-      Hotbar_45: 1568306092
-      Hotbar_46: -1762351835
-      Hotbar_47: 584747389
-      Hotbar_48: 1651996597
-      Hotbar_49: 15693984
-      Hotbar_5: -384715232
-      Hotbar_50: 1310559266
-      Hotbar_51: -1910355181
-      Hotbar_52: 1938467351
-      Hotbar_53: 1045797709
-      Hotbar_54: 401834292
-      Hotbar_55: 1912182164
-      Hotbar_56: 849144893
-      Hotbar_57: -1291919839
-      Hotbar_58: -267066053
-      Hotbar_59: 480557461
-      Hotbar_6: -1548661155
-      Hotbar_60: -499443894
-      Hotbar_61: -72266237
-      Hotbar_62: -346264397
-      Hotbar_63: 382450065
-      Hotbar_64: 1939043396
-      Hotbar_65: -7275952
-      Hotbar_66: 1243706080
-      Hotbar_67: 310634746
-      Hotbar_68: -1255347436
-      Hotbar_69: -1278165328
-      Hotbar_7: 2071403018
-      Hotbar_70: 1052873672
-      Hotbar_71: -1546337962
-      Hotbar_8: -1487009691
-      Hotbar_9: 615132937
+      Hotbar_0: -1782911992
+      Hotbar_1: 155692229
+      Hotbar_10: -49943859
+      Hotbar_100: 460569111
+      Hotbar_101: 203678722
+      Hotbar_102: -1116534705
+      Hotbar_103: -886501142
+      Hotbar_104: 61785432
+      Hotbar_105: -1111514186
+      Hotbar_106: 766019625
+      Hotbar_107: 1923849515
+      Hotbar_108: 839105242
+      Hotbar_109: 995065189
+      Hotbar_11: 685350408
+      Hotbar_110: 192460664
+      Hotbar_111: 1427417307
+      Hotbar_112: 1066376312
+      Hotbar_113: 1539456842
+      Hotbar_114: -886577256
+      Hotbar_115: 1396644546
+      Hotbar_116: -642832711
+      Hotbar_117: 1198208694
+      Hotbar_118: -1027696244
+      Hotbar_119: 587487047
+      Hotbar_12: 1066774790
+      Hotbar_120: -638340805
+      Hotbar_121: -1886878755
+      Hotbar_122: -957893242
+      Hotbar_123: -1123988478
+      Hotbar_124: -1823589340
+      Hotbar_125: -2051562030
+      Hotbar_126: -551278973
+      Hotbar_127: -197830498
+      Hotbar_128: -446711613
+      Hotbar_129: -437855190
+      Hotbar_13: -219226579
+      Hotbar_130: -2126388145
+      Hotbar_131: 647185734
+      Hotbar_132: -1436601593
+      Hotbar_133: -1995468711
+      Hotbar_134: -1817547180
+      Hotbar_135: 1143413951
+      Hotbar_136: -1806843866
+      Hotbar_137: -178808042
+      Hotbar_138: -64771142
+      Hotbar_139: 1977812743
+      Hotbar_14: -619167847
+      Hotbar_140: 539056264
+      Hotbar_141: 190123540
+      Hotbar_142: -46262147
+      Hotbar_143: 1914150004
+      Hotbar_144: 1286744350
+      Hotbar_145: 149029149
+      Hotbar_146: -1934281385
+      Hotbar_147: 1897567446
+      Hotbar_148: -552987401
+      Hotbar_149: -1560725835
+      Hotbar_15: 826474191
+      Hotbar_150: 245875381
+      Hotbar_16: 1829161898
+      Hotbar_17: 1259648429
+      Hotbar_18: 791004277
+      Hotbar_19: -856559156
+      Hotbar_2: 596772907
+      Hotbar_20: 1833856071
+      Hotbar_21: -895002126
+      Hotbar_22: 807237243
+      Hotbar_23: 1441616297
+      Hotbar_24: 450005694
+      Hotbar_25: -1801912338
+      Hotbar_26: -1035378557
+      Hotbar_27: 172602106
+      Hotbar_28: -118028197
+      Hotbar_29: 199993576
+      Hotbar_3: -1298558587
+      Hotbar_30: -359049234
+      Hotbar_31: 813635879
+      Hotbar_32: -1586840757
+      Hotbar_33: 4426384
+      Hotbar_34: -697004248
+      Hotbar_35: -418927364
+      Hotbar_36: -909212122
+      Hotbar_37: 2002473964
+      Hotbar_38: 2675224
+      Hotbar_39: -1677795538
+      Hotbar_4: -297766479
+      Hotbar_40: 2093973198
+      Hotbar_41: 1662015224
+      Hotbar_42: -1104710764
+      Hotbar_43: 1785251334
+      Hotbar_44: 1736572807
+      Hotbar_45: -1693889432
+      Hotbar_46: 988309795
+      Hotbar_47: -1342140504
+      Hotbar_48: -1814472915
+      Hotbar_49: -630107640
+      Hotbar_5: -28799435
+      Hotbar_50: -759628762
+      Hotbar_51: -1569954389
+      Hotbar_52: -241835235
+      Hotbar_53: 2064220869
+      Hotbar_54: 2118759846
+      Hotbar_55: -1082675072
+      Hotbar_56: -801405037
+      Hotbar_57: -1603386040
+      Hotbar_58: 1472438386
+      Hotbar_59: 1482436194
+      Hotbar_6: -241330059
+      Hotbar_60: 933483934
+      Hotbar_61: -1310072158
+      Hotbar_62: -731582682
+      Hotbar_63: 153273400
+      Hotbar_64: 1872156382
+      Hotbar_65: -836268078
+      Hotbar_66: 1941765235
+      Hotbar_67: 1185627758
+      Hotbar_68: 1250190520
+      Hotbar_69: 1473682063
+      Hotbar_7: -257235214
+      Hotbar_70: 1473595456
+      Hotbar_71: 1754248676
+      Hotbar_72: 168916372
+      Hotbar_73: 2063071023
+      Hotbar_74: 532915846
+      Hotbar_75: 913142011
+      Hotbar_76: 1936764189
+      Hotbar_77: -817700916
+      Hotbar_78: -668475377
+      Hotbar_79: -1767967310
+      Hotbar_8: -2093254883
+      Hotbar_80: 1622748961
+      Hotbar_81: 1785523004
+      Hotbar_82: -1862782934
+      Hotbar_83: -1587622824
+      Hotbar_84: -1954101332
+      Hotbar_85: -2101749278
+      Hotbar_86: -1658497772
+      Hotbar_87: -1021951715
+      Hotbar_88: -226111291
+      Hotbar_89: -405767561
+      Hotbar_9: 1856032049
+      Hotbar_90: -673601270
+      Hotbar_91: 1279822823
+      Hotbar_92: 1828889669
+      Hotbar_93: 1409271276
+      Hotbar_94: -1493165555
+      Hotbar_95: -345299815
+      Hotbar_96: -982439242
+      Hotbar_97: -1950756406
+      Hotbar_98: -1010905234
+      Hotbar_99: 2036737599
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
