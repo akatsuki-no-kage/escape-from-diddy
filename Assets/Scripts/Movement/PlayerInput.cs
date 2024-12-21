@@ -14,7 +14,6 @@ public class PlayerInput : CharacterController
         _camera = Camera.main;
     }
     
-
     public void OnMovement(InputValue value)
     {
         Vector2 direction = value.Get<Vector2>();
@@ -38,15 +37,16 @@ public class PlayerInput : CharacterController
     }
     public void OnAttackMelee(InputValue value)
     {
-        bool isAttack = value.isPressed;
-        if (isAttack)
-        {
-            onAttackMeleeEvent.Invoke(isAttack);
-        }
+        useMelee = value.isPressed;
     }
 
     public void OnAttackRange(InputValue value)
     {
-        isAttacking = value.isPressed;
+        useGun = value.isPressed;
+    }
+
+    public void OnThrowItem(InputValue value)
+    {
+        canThrow = value.isPressed;
     }
 }

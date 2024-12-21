@@ -2,30 +2,64 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
 public class CharacterController : MonoBehaviour
 {
-    public bool isAttacking;
+    public bool useGun;
+    public bool useMelee;
+    public bool isDead = false;
+    public bool canThrow = false;
     private float lastTimeShoot;
     [SerializeField] private Bullet bulletConfig;
+    [SerializeField] private Melee meleeConfig;
     public virtual void Awake()
     {
-        isAttacking = false;
+        useGun = false;
+        useMelee = false;
     }
 
-    public void Update()
+    public virtual void Update()
     {
         HandleDelayTime();
+        if (isDead)
+        {
+            onDeathEvent.Invoke();
+        }
     }
 
     public void HandleDelayTime()
     {
         lastTimeShoot += Time.deltaTime;
-        if (isAttacking && lastTimeShoot > 0.5f)
+        if (useGun && lastTimeShoot > bulletConfig.delay)
         {
             lastTimeShoot = 0f;
-            isAttacking = false;
+            useGun = false;
             onAttackGunEvent.Invoke(bulletConfig);
+        }
+
+        if (useMelee && !useGun)
+        {
+            useMelee = false;
+            onAttackMeleeEvent.Invoke(meleeConfig);
+        }
+
+        if (canThrow)
+        {
+            canThrow = false;
+            onThrow.Invoke();
+        }
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.gameObject.layer == LayerMask.NameToLayer("Bullet"))
+        {   
+            BulletController bulletController = other.gameObject.GetComponent<BulletController>();
+            if (bulletController != null && !isDead)
+            {
+                onDamgeEvent.Invoke(bulletController.GetDamage());
+            }
         }
     }
 
@@ -33,9 +67,17 @@ public class CharacterController : MonoBehaviour
     private readonly LookEvent _lookEvent = new LookEvent();
     private readonly AttackMeleeEvent _attackMelee = new AttackMeleeEvent();
     private readonly AttackGunEvent _attackGun = new AttackGunEvent();
+    private readonly ThrowEvent _throwEvent = new ThrowEvent();
+    private UnityEvent OnDeath = new UnityEvent();
+    private UnityEvent OnHealthChanged = new UnityEvent();
+    private UnityEvent<float> OnDamge  = new UnityEvent<float>();
 
+    public ThrowEvent onThrow => _throwEvent;
     public AttackMeleeEvent onAttackMeleeEvent => _attackMelee;
     public AttackGunEvent onAttackGunEvent => _attackGun;
     public MoveEvent onMoveEvent => _moveEvent;
     public LookEvent onLookEvent => _lookEvent;
+    public UnityEvent onDeathEvent => OnDeath;
+    public UnityEvent onHealthChangedEvent => OnHealthChanged;
+    public UnityEvent<float> onDamgeEvent => OnDamge;
 }

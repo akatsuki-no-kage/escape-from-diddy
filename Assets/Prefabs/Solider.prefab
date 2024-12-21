@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6957385827374850613}
   - component: {fileID: 8016089204166456663}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -94,7 +94,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8446575270321020903}
   - component: {fileID: 5235695221829243536}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -179,7 +179,7 @@ GameObject:
   - component: {fileID: 5953029261622783945}
   - component: {fileID: 1104279270906475107}
   - component: {fileID: 5968710346457646491}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5065,7 +5065,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2312404720757872178}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5097,7 +5097,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3601146165200414711}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5137,7 +5137,8 @@ GameObject:
   - component: {fileID: 8505704549528135501}
   - component: {fileID: 5662262763047274046}
   - component: {fileID: 5800486460615260168}
-  m_Layer: 0
+  - component: {fileID: 3737933672434941669}
+  m_Layer: 6
   m_Name: Solider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5174,7 +5175,7 @@ Rigidbody2D:
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
   m_UseAutoMass: 0
-  m_Mass: 0.0001
+  m_Mass: 1
   m_LinearDrag: 0
   m_AngularDrag: 0.05
   m_GravityScale: 0
@@ -5276,6 +5277,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d8d612a702c703158bff53d3baf8b779, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Bomb: {fileID: 0}
+  useGun: 0
+  useMelee: 0
+  isDead: 0
+  canThrow: 0
+  bulletConfig: {fileID: 11400000, guid: 0d77871fb079490789493c6056745278, type: 2}
+  meleeConfig: {fileID: 11400000, guid: cae6045c717dd065f94b3b415604c0bc, type: 2}
   target: {fileID: 0}
 --- !u!114 &8505704549528135501
 MonoBehaviour:
@@ -5320,6 +5328,19 @@ MonoBehaviour:
   - {fileID: 4898247003950162605}
   gun: {fileID: 5235695221829243536}
   spawnBullet: {fileID: 2312404720757872178}
+--- !u!114 &3737933672434941669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6022808750229798713}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 582f05bd0d23bac1886463b674f76144, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  stats: {fileID: 11400000, guid: e36a4cfc345e7ee85b06ee558a9472d0, type: 2}
 --- !u!1 &8278410955641685188
 GameObject:
   m_ObjectHideFlags: 0
@@ -5330,7 +5351,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2516340684205296194}
   - component: {fileID: 4898247003950162605}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}

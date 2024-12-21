@@ -1,11 +1,10 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class ObjectPool : MonoBehaviour
+public class ObjectPoolItem : MonoBehaviour
 {
-    public static ObjectPool ObjectPoolInstance;
+    public static ObjectPoolItem ObjectPoolItemInstance;
     
     [SerializeField] private List<GameObject> _listObjectPool;
     [SerializeField] private GameObject _objectPrefab;
@@ -13,7 +12,7 @@ public class ObjectPool : MonoBehaviour
 
     private void Awake()
     {
-        ObjectPoolInstance = this;
+        ObjectPoolItemInstance = this;
     }
 
     private void Start()

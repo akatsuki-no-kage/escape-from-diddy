@@ -23,7 +23,7 @@ public class AnimationController : MonoBehaviour
     {
         CharacterController.onMoveEvent.AddListener(Move);
         CharacterController.onMoveEvent.AddListener(Dust);
-
+        CharacterController.onDamgeEvent.AddListener(Hurt);
     }
 
     private void Move(Vector2 movement)
@@ -31,9 +31,14 @@ public class AnimationController : MonoBehaviour
         animator.SetBool(isRunning, movement.magnitude > 0.3f); 
     }
 
-    private void Hurt()
+    private void Hurt(float damage)
     {
         animator.SetBool(isHurt, true);
+    }
+
+    private void ResetHurt()
+    {
+        animator.SetBool(isHurt, false);
     }
 
     private void Dust(Vector2 movement)
