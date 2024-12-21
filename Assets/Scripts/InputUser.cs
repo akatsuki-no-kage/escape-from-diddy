@@ -62,6 +62,15 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""ThrowItem"",
+                    ""type"": ""Button"",
+                    ""id"": ""627865b7-db6c-4e24-98df-ff00ca456e82"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -152,6 +161,17 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
                     ""action"": ""AttackRange"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ddaf8594-a501-42bd-bc78-e2f05d130fa2"",
+                    ""path"": ""<Keyboard>/r"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""ThrowItem"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -164,6 +184,7 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
         m_Player_Look = m_Player.FindAction("Look", throwIfNotFound: true);
         m_Player_AttackMelee = m_Player.FindAction("AttackMelee", throwIfNotFound: true);
         m_Player_AttackRange = m_Player.FindAction("AttackRange", throwIfNotFound: true);
+        m_Player_ThrowItem = m_Player.FindAction("ThrowItem", throwIfNotFound: true);
     }
 
     ~@InputUser()
@@ -234,6 +255,7 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_Look;
     private readonly InputAction m_Player_AttackMelee;
     private readonly InputAction m_Player_AttackRange;
+    private readonly InputAction m_Player_ThrowItem;
     public struct PlayerActions
     {
         private @InputUser m_Wrapper;
@@ -242,6 +264,7 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
         public InputAction @Look => m_Wrapper.m_Player_Look;
         public InputAction @AttackMelee => m_Wrapper.m_Player_AttackMelee;
         public InputAction @AttackRange => m_Wrapper.m_Player_AttackRange;
+        public InputAction @ThrowItem => m_Wrapper.m_Player_ThrowItem;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -263,6 +286,9 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
             @AttackRange.started += instance.OnAttackRange;
             @AttackRange.performed += instance.OnAttackRange;
             @AttackRange.canceled += instance.OnAttackRange;
+            @ThrowItem.started += instance.OnThrowItem;
+            @ThrowItem.performed += instance.OnThrowItem;
+            @ThrowItem.canceled += instance.OnThrowItem;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -279,6 +305,9 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
             @AttackRange.started -= instance.OnAttackRange;
             @AttackRange.performed -= instance.OnAttackRange;
             @AttackRange.canceled -= instance.OnAttackRange;
+            @ThrowItem.started -= instance.OnThrowItem;
+            @ThrowItem.performed -= instance.OnThrowItem;
+            @ThrowItem.canceled -= instance.OnThrowItem;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -302,5 +331,6 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
         void OnLook(InputAction.CallbackContext context);
         void OnAttackMelee(InputAction.CallbackContext context);
         void OnAttackRange(InputAction.CallbackContext context);
+        void OnThrowItem(InputAction.CallbackContext context);
     }
 }

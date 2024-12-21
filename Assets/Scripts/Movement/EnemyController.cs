@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class EnemyController : CharacterController
@@ -9,7 +10,6 @@ public class EnemyController : CharacterController
     public override void Awake()
     {
         base.Awake();
-
         target = FindObjectByTags();
     }
 

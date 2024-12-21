@@ -6,9 +6,9 @@ using UnityEngine;
 public class BulletController : MonoBehaviour
 {
     private BulletManager bulletManager;
-    [SerializeField] Bullet bulletConfig;
+    [SerializeField] private Bullet bulletConfig;
     [SerializeField] private Rigidbody2D _rigidbody2D;
-    [SerializeField] private List<LayerMask> _layerMask;
+    [SerializeField] private LayerMask layerMask;
     [SerializeField] private SpriteRenderer spriteRenderer;
     private float currentDuration;
     private Vector2 direction;
@@ -30,9 +30,18 @@ public class BulletController : MonoBehaviour
         currentDuration += Time.deltaTime;
         if (currentDuration > bulletConfig.duration)
         {
-            DestroyBullet(transform.position, false);
+            DestroyBullet(transform.position, true);
         }
         _rigidbody2D.velocity = direction * bulletConfig.speed;
+    }
+
+    private void OnTriggerEnter2D(Collider2D other)
+    {
+        if ((layerMask & (1 << other.gameObject.layer)) != 0) 
+        {
+            DestroyBullet(other.transform.position, true);
+        }
+        
     }
 
     public void InitConfigBullet(Bullet bulletConfig, Vector2 direction, BulletManager bulletManager)
@@ -60,6 +69,10 @@ public class BulletController : MonoBehaviour
             bulletManager.CreateEffectDestroyBullet(pos,bulletConfig);
         }
         gameObject.SetActive(false);
-        
+    }
+
+    public float GetDamage()
+    {
+        return bulletConfig.damage;
     }
 }

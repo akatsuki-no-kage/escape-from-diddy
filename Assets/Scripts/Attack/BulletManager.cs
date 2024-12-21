@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class BulletManager : MonoBehaviour
 {
-    private ParticleSystem particleSystem;
+    [SerializeField] private ParticleSystem particleSystem;
     public static BulletManager instance;
     private ObjectPool objectPool;
 
@@ -16,7 +16,7 @@ public class BulletManager : MonoBehaviour
 
     private void Start()
     {
-        objectPool = ObjectPool.bulletManager;
+        objectPool = ObjectPool.ObjectPoolInstance;
     }
 
     public void CreateEffectDestroyBullet(Vector3 position, Bullet bullet)
@@ -26,16 +26,16 @@ public class BulletManager : MonoBehaviour
         em.SetBurst(0, new ParticleSystem.Burst(0, Mathf.Ceil(bullet.size * 5f)));
         ParticleSystem.MainModule mainModule = particleSystem.main;
         mainModule.startSpeedMultiplier = bullet.size * 10f;
+        particleSystem.Stop();
         particleSystem.Play();
     }
 
     public void ShootBullet(Vector2 startPos, Vector2 direction, Bullet bulletConfig)
     {
-        GameObject bullet = objectPool.GetBullet();
+        GameObject bullet = objectPool.GetObject();
         bullet.transform.position = startPos;
         BulletController bulletController = bullet.GetComponent<BulletController>();
         bulletController.InitConfigBullet(bulletConfig,direction,this);
-        Debug.Log(startPos);
         bullet.SetActive(true);
     }
 }
