@@ -35,6 +35,6 @@ public class EnemyController : CharacterController
 
     public bool CanSeePlayer(Transform target)
     {
-        return DistanceToTarget(target) < 10f;
+        return DistanceToTarget(target) < 100f;
     }
 }

@@ -11,8 +11,11 @@ public class CharacterController : MonoBehaviour
     public bool isDead = false;
     public bool canThrow = false;
     private float lastTimeShoot;
-    [SerializeField] private Bullet bulletConfig;
-    [SerializeField] private Melee meleeConfig;
+    protected float lastTimeAttack = 0;
+    [SerializeField] protected Bullet bulletConfig;
+    [SerializeField] protected Melee meleeConfig;
+    [SerializeField] protected BombConfig bombConfig;
+
     public virtual void Awake()
     {
         useGun = false;
@@ -49,10 +52,12 @@ public class CharacterController : MonoBehaviour
             canThrow = false;
             onThrow.Invoke();
         }
+        
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
+        Debug.Log(other.gameObject.name);
         if (other.gameObject.layer == LayerMask.NameToLayer("Bullet"))
         {   
             BulletController bulletController = other.gameObject.GetComponent<BulletController>();
@@ -60,6 +65,15 @@ public class CharacterController : MonoBehaviour
             {
                 onDamgeEvent.Invoke(bulletController.GetDamage());
             }
+        }
+        else if (other.gameObject.layer == LayerMask.NameToLayer("Bomb"))
+        {
+            Debug.Log(other.gameObject.name);
+            onDamgeEvent.Invoke(bombConfig.damage);
+        }
+        else if (other.gameObject.layer == LayerMask.NameToLayer("Melee"))
+        {
+            onDamgeEvent.Invoke(meleeConfig.damage);
         }
     }
 
@@ -71,8 +85,10 @@ public class CharacterController : MonoBehaviour
     private UnityEvent OnDeath = new UnityEvent();
     private UnityEvent OnHealthChanged = new UnityEvent();
     private UnityEvent<float> OnDamge  = new UnityEvent<float>();
+    private UnityEvent _onDash = new UnityEvent();
 
     public ThrowEvent onThrow => _throwEvent;
+    public UnityEvent onDash => _onDash;
     public AttackMeleeEvent onAttackMeleeEvent => _attackMelee;
     public AttackGunEvent onAttackGunEvent => _attackGun;
     public MoveEvent onMoveEvent => _moveEvent;

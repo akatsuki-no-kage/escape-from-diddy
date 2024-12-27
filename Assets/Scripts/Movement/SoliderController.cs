@@ -7,11 +7,29 @@ public class SoliderController : EnemyController
 {
     public override void FixedUpdate()
     {
+        lastTimeAttack += Time.fixedDeltaTime;
         target = FindObjectByTags();
         if (CanSeePlayer(target))
         {
-            onLookEvent.Invoke(DirectionToTarget(target));
-            onMoveEvent.Invoke(DirectionToTarget(target) * 0.5f);
+
+            if (DistanceToTarget(target) < 7f)
+            {
+                if (lastTimeAttack >= bulletConfig.delay)
+                {
+                    lastTimeAttack = 0f;
+                    useGun = true;
+                    onLookEvent.Invoke(DirectionToTarget(target));
+                }
+                else
+                {
+                    onLookEvent.Invoke(DirectionToTarget(target));
+                }
+            } 
+            else
+            {
+                onLookEvent.Invoke(DirectionToTarget(target));
+                onMoveEvent.Invoke(DirectionToTarget(target) * 0.5f);
+            }
         }
     }
     

@@ -41,6 +41,10 @@ public class BulletController : MonoBehaviour
         {
             DestroyBullet(other.transform.position, true);
         }
+        else if (other.gameObject.layer == LayerMask.NameToLayer("Player"))
+        {
+            DestroyBullet(other.transform.position, true);
+        }
         
     }
 

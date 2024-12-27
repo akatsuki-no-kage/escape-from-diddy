@@ -4,15 +4,31 @@ using UnityEngine;
 
 public class SpawnEnemy : MonoBehaviour
 {
-    // Start is called before the first frame update
+    public GameObject enemyPrefab; // Reference to the enemy prefab
+    public Transform[] spawnPoints; // Array of spawn points
+    public float spawnInterval = 2f; // Time between spawns
+
     void Start()
     {
-        
+        StartCoroutine(SpawnEnemies());
     }
 
-    // Update is called once per frame
-    void Update()
+    IEnumerator SpawnEnemies()
     {
-        
+        while (true) 
+        {
+            Spawn();
+            yield return new WaitForSeconds(spawnInterval); // Wait for the specified interval
+        }
+    }
+
+    void Spawn()
+    {
+        // Choose a random spawn point from the array
+        int randomIndex = Random.Range(0, spawnPoints.Length);
+        Transform spawnPoint = spawnPoints[randomIndex];
+
+        // Instantiate the enemy at the chosen spawn point
+        Instantiate(enemyPrefab, spawnPoint.position, spawnPoint.rotation).SetActive(true);
     }
 }

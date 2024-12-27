@@ -4,11 +4,11 @@ using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.UI;
 
 public class PlayerInput : CharacterController
 {
     [SerializeField] private Camera _camera;
-
     private void Awake()
     {
         _camera = Camera.main;
@@ -48,5 +48,10 @@ public class PlayerInput : CharacterController
     public void OnThrowItem(InputValue value)
     {
         canThrow = value.isPressed;
+    }
+
+    public void OnDash(InputValue value)
+    {
+        onDash.Invoke();
     }
 }

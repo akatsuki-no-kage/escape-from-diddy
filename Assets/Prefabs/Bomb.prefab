@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 9175580174484895883}
   - component: {fileID: 3038954017057305369}
   - component: {fileID: 7392694307886055150}
-  m_Layer: 0
+  m_Layer: 10
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4901,8 +4901,8 @@ GameObject:
   - component: {fileID: 7621002910519653978}
   - component: {fileID: 6931215750907520765}
   - component: {fileID: 375510584450940998}
-  - component: {fileID: 4111863115969843882}
-  m_Layer: 0
+  - component: {fileID: 7147457449801942403}
+  m_Layer: 10
   m_Name: Bomb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5060,7 +5060,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &4111863115969843882
+--- !u!114 &7147457449801942403
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -5069,12 +5069,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 4173469051341593748}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: c938101a1d1ba3ec8bf7684fbfd4ab4b, type: 3}
+  m_Script: {fileID: 11500000, guid: a0ff53e60c256db5bba3e2d275e00ebd, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   layerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 128
   particleSystem: {fileID: 3038954017057305369}
-  config: {fileID: 11400000, guid: 7b489d09de270da26bb26c16ee821856, type: 2}
+  config: {fileID: 11400000, guid: 673284d014baa93afb389022f8d5b250, type: 2}
   rb2d: {fileID: 375510584450940998}
