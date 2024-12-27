@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 1078700980453312694}
   - component: {fileID: 322154580851956231}
   - component: {fileID: 8012458305989854782}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Bullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -161,9 +161,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f88ad98c7dca6dfc7916ea95a38f9cbc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bulletConfig: {fileID: 11400000, guid: 0d77871fb079490789493c6056745278, type: 2}
+  bulletConfig: {fileID: 11400000, guid: fcd94394b07f28f3fb99ef15a61766e0, type: 2}
   _rigidbody2D: {fileID: 1078700980453312694}
   layerMask:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 128
   spriteRenderer: {fileID: 252821917062951825}

@@ -19,6 +19,7 @@ public class Inventory : MonoBehaviour
             ItemInstance existingItem = items.Find(i => i.itemData == itemData);
             if (existingItem != null)
             {
+                
                 existingItem.currentAmount += quantityToAdd;
                 return true;
             }

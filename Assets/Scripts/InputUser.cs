@@ -71,6 +71,15 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
                     ""processors"": """",
                     ""interactions"": """",
                     ""initialStateCheck"": false
+                },
+                {
+                    ""name"": ""Dash"",
+                    ""type"": ""Button"",
+                    ""id"": ""c01323b0-41be-4852-ab1f-4020abcae55c"",
+                    ""expectedControlType"": """",
+                    ""processors"": """",
+                    ""interactions"": """",
+                    ""initialStateCheck"": false
                 }
             ],
             ""bindings"": [
@@ -172,6 +181,17 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
                     ""action"": ""ThrowItem"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""04c489c4-2574-435e-90a0-cdb8e3824421"",
+                    ""path"": ""<Keyboard>/shift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": """",
+                    ""action"": ""Dash"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 }
             ]
         }
@@ -185,6 +205,7 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
         m_Player_AttackMelee = m_Player.FindAction("AttackMelee", throwIfNotFound: true);
         m_Player_AttackRange = m_Player.FindAction("AttackRange", throwIfNotFound: true);
         m_Player_ThrowItem = m_Player.FindAction("ThrowItem", throwIfNotFound: true);
+        m_Player_Dash = m_Player.FindAction("Dash", throwIfNotFound: true);
     }
 
     ~@InputUser()
@@ -256,6 +277,7 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
     private readonly InputAction m_Player_AttackMelee;
     private readonly InputAction m_Player_AttackRange;
     private readonly InputAction m_Player_ThrowItem;
+    private readonly InputAction m_Player_Dash;
     public struct PlayerActions
     {
         private @InputUser m_Wrapper;
@@ -265,6 +287,7 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
         public InputAction @AttackMelee => m_Wrapper.m_Player_AttackMelee;
         public InputAction @AttackRange => m_Wrapper.m_Player_AttackRange;
         public InputAction @ThrowItem => m_Wrapper.m_Player_ThrowItem;
+        public InputAction @Dash => m_Wrapper.m_Player_Dash;
         public InputActionMap Get() { return m_Wrapper.m_Player; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
@@ -289,6 +312,9 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
             @ThrowItem.started += instance.OnThrowItem;
             @ThrowItem.performed += instance.OnThrowItem;
             @ThrowItem.canceled += instance.OnThrowItem;
+            @Dash.started += instance.OnDash;
+            @Dash.performed += instance.OnDash;
+            @Dash.canceled += instance.OnDash;
         }
 
         private void UnregisterCallbacks(IPlayerActions instance)
@@ -308,6 +334,9 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
             @ThrowItem.started -= instance.OnThrowItem;
             @ThrowItem.performed -= instance.OnThrowItem;
             @ThrowItem.canceled -= instance.OnThrowItem;
+            @Dash.started -= instance.OnDash;
+            @Dash.performed -= instance.OnDash;
+            @Dash.canceled -= instance.OnDash;
         }
 
         public void RemoveCallbacks(IPlayerActions instance)
@@ -332,5 +361,6 @@ public partial class @InputUser: IInputActionCollection2, IDisposable
         void OnAttackMelee(InputAction.CallbackContext context);
         void OnAttackRange(InputAction.CallbackContext context);
         void OnThrowItem(InputAction.CallbackContext context);
+        void OnDash(InputAction.CallbackContext context);
     }
 }

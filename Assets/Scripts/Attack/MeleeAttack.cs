@@ -38,6 +38,9 @@ public class MeleeAttack : MonoBehaviour
             pivotHand.transform.rotation = Quaternion.Euler(0,0,angle);
             yield return null;
         }
+        Transform swordTransform = pivotHand.transform.GetChild(0);
+        swordTransform.localPosition = new Vector3(1.8f,0f,0f);
+        swordTransform.localRotation = Quaternion.Euler(0,0,0);
         pivotHand.SetActive(false);
     }
 }

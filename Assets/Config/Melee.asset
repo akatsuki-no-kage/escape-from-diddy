@@ -9,7 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f22e7ea5e0c85f687b34cc131835a7b6, type: 3}
+  m_Script: {fileID: 11500000, guid: fe3230fc091870e5ba32921b3283915c, type: 3}
   m_Name: Melee
   m_EditorClassIdentifier: 
   size: 1
@@ -18,6 +18,6 @@ MonoBehaviour:
   delay: 0.5
   layerMask:
     serializedVersion: 2
-    m_Bits: 64
-  swingDuration: 0.25
+    m_Bits: 128
+  swingDuration: 0.2
   endOfSwingAngle: 50

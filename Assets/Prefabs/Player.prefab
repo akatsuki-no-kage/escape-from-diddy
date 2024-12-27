@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4227371164169524017}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Hand
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -44,7 +44,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3488334729644338322}
   - component: {fileID: 5366941994849702717}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Gun
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -137,9 +137,10 @@ GameObject:
   - component: {fileID: 175308446448049008}
   - component: {fileID: 8346595549934160980}
   - component: {fileID: 1078969981975417996}
-  - component: {fileID: 807315066364507616}
-  - component: {fileID: 5566994871387761860}
-  m_Layer: 7
+  - component: {fileID: 4919005023201591117}
+  - component: {fileID: 6827142484350834901}
+  - component: {fileID: 8392506029174508739}
+  m_Layer: 6
   m_Name: Player
   m_TagString: Player
   m_Icon: {fileID: 0}
@@ -258,13 +259,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bb156a5c0e0029709a925e0d2f29cade, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BombController: {fileID: 0}
   useGun: 0
   useMelee: 0
   isDead: 0
   canThrow: 0
-  bulletConfig: {fileID: 11400000, guid: 0d77871fb079490789493c6056745278, type: 2}
-  meleeConfig: {fileID: 11400000, guid: cae6045c717dd065f94b3b415604c0bc, type: 2}
+  bulletConfig: {fileID: 11400000, guid: fcd94394b07f28f3fb99ef15a61766e0, type: 2}
+  meleeConfig: {fileID: 11400000, guid: 6e6434a3a36e7efed9e7f9d3da960845, type: 2}
+  bombConfig: {fileID: 0}
   _camera: {fileID: 0}
 --- !u!95 &1252124364007297476
 Animator:
@@ -360,6 +361,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rb: {fileID: 8534218086880590555}
+  dashTrail: {fileID: 8392506029174508739}
 --- !u!114 &8346595549934160980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -411,7 +413,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   firePoint: {fileID: 5391971757624039326}
---- !u!114 &807315066364507616
+--- !u!114 &4919005023201591117
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -420,11 +422,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 3492476551995788822}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 582f05bd0d23bac1886463b674f76144, type: 3}
+  m_Script: {fileID: 11500000, guid: 43763d31fdf6ab178bc24798555c0a58, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  stats: {fileID: 11400000, guid: e3371931fe00ce4148f38aadb3b33daa, type: 2}
---- !u!114 &5566994871387761860
+  bombConfig: {fileID: 11400000, guid: 673284d014baa93afb389022f8d5b250, type: 2}
+  throwPoint: {fileID: 5391971757624039326}
+--- !u!114 &6827142484350834901
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -433,11 +436,123 @@ MonoBehaviour:
   m_GameObject: {fileID: 3492476551995788822}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 67d829abb3c1466f39ace2b85edc823f, type: 3}
+  m_Script: {fileID: 11500000, guid: ad16511d7a7e85abdbcbd4c20ab11d9c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  bombConfig: {fileID: 0}
-  throwPoint: {fileID: 0}
+  stats: {fileID: 11400000, guid: da164d47b3f82d4aaa069726980a3e53, type: 2}
+--- !u!96 &8392506029174508739
+TrailRenderer:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3492476551995788822}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 0
+  m_LightProbeUsage: 0
+  m_ReflectionProbeUsage: 0
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+  m_Time: 0.5
+  m_PreviewTimeScale: 1
+  m_Parameters:
+    serializedVersion: 3
+    widthMultiplier: 1
+    widthCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0.5
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0.33333334
+        outWeight: 0.33333334
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    colorGradient:
+      serializedVersion: 2
+      key0: {r: 1, g: 1, b: 1, a: 1}
+      key1: {r: 1, g: 1, b: 1, a: 0}
+      key2: {r: 0, g: 0, b: 0, a: 0}
+      key3: {r: 0, g: 0, b: 0, a: 0}
+      key4: {r: 0, g: 0, b: 0, a: 0}
+      key5: {r: 0, g: 0, b: 0, a: 0}
+      key6: {r: 0, g: 0, b: 0, a: 0}
+      key7: {r: 0, g: 0, b: 0, a: 0}
+      ctime0: 0
+      ctime1: 65535
+      ctime2: 0
+      ctime3: 0
+      ctime4: 0
+      ctime5: 0
+      ctime6: 0
+      ctime7: 0
+      atime0: 0
+      atime1: 65535
+      atime2: 0
+      atime3: 0
+      atime4: 0
+      atime5: 0
+      atime6: 0
+      atime7: 0
+      m_Mode: 0
+      m_ColorSpace: 0
+      m_NumColorKeys: 2
+      m_NumAlphaKeys: 2
+    numCornerVertices: 0
+    numCapVertices: 0
+    alignment: 0
+    textureMode: 0
+    textureScale: {x: 1, y: 1}
+    shadowBias: 0.5
+    generateLightingData: 0
+  m_MinVertexDistance: 0.1
+  m_MaskInteraction: 0
+  m_Autodestruct: 0
+  m_Emitting: 0
+  m_ApplyActiveColorSpace: 1
 --- !u!1 &3521613238639119657
 GameObject:
   m_ObjectHideFlags: 0
@@ -447,7 +562,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5391971757624039326}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: SpawnBullet
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -479,7 +594,7 @@ GameObject:
   m_Component:
   - component: {fileID: 7780364406319245816}
   - component: {fileID: 5970459649563941198}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Head
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -563,7 +678,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2339307226513247086}
   - component: {fileID: 4869786705598199612}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Body
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -646,7 +761,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 5369057596980071288}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Main
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -682,7 +797,7 @@ GameObject:
   - component: {fileID: 2459132155333600242}
   - component: {fileID: 5489169737861660276}
   - component: {fileID: 681159869826716639}
-  m_Layer: 9
+  m_Layer: 8
   m_Name: Sword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -785,7 +900,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
   m_Offset: {x: 0.12473539, y: 0.062390834}
@@ -837,7 +952,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4914283379452701372}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: PivotSword
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -871,7 +986,7 @@ GameObject:
   - component: {fileID: 1905073927905655538}
   - component: {fileID: 416562048011117820}
   - component: {fileID: 6449918850250833389}
-  m_Layer: 7
+  m_Layer: 6
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}

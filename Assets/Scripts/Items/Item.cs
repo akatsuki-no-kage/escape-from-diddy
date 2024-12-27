@@ -6,16 +6,11 @@ using UnityEngine.Tilemaps;
 [CreateAssetMenu(menuName = "Scriptable objects/Item")]
 public class Item : ScriptableObject
 {
-    [Header("Only gameplay")]
     public TileBase tile;
     public ItemType type;
-    public ActionType actionType;        
-    public Vector2Int rage = new Vector2Int(5, 4);
-    
-    [Header("Only UI")]
+    public ActionType actionType;
+    public float buff;
     public bool isStackable = true;
-
-    [Header("Both")]
     public Sprite image;
 }
 
@@ -28,6 +23,6 @@ public enum ItemType
 public enum ActionType
 {
     attack,
-    mine,
-    consume
+    health,
+    upgrade
 }

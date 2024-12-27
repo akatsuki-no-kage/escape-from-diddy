@@ -28,8 +28,4 @@ public class Throwing : MonoBehaviour
     {
         this.aimDirection = aimDirection;
     }
-    private Vector2 RotateDirection(Vector2 aimDirection, float angle)
-    {
-        return Quaternion.Euler(0,0,angle) * aimDirection;
-    }
 }
